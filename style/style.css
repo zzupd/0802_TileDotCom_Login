@@ -9,9 +9,11 @@ div#wrap  {
 #wrap>#header {
     border: 1px solid #08f;
 }
+/* 
 #header>* {
     border: 1px solid #000;
-}
+} */
+
 /* 가이드라인 끝 */
 
 
@@ -42,13 +44,11 @@ header#header {
 
 /* div#searchArea 시작 */
 #header>div#searchArea {
-
     flex: 1;
 }
 #header>div#searchArea>* {
     width: 300px;
-    border: 1px solid #f80;
-    /* margin: 0 auto; */
+    /* border: 1px solid #f80; */
     transform: translateX(120px);
 }
 #searchArea span#slogan {
@@ -102,7 +102,8 @@ header#header {
     padding: 10px;
 }
 #headerLnb li {
-    font-size: 10px;
+    font-size: 11px;
+    font-weight: bold;
 }
 #headerLnb li:nth-child(2n) {
     margin: 0 6px;
@@ -111,6 +112,31 @@ header#header {
 
 /* header#header 끝 */
 
+
+/* nav#gnb 시작 */
+nav#gnb {
+    padding: 4px 0;
+    border: 1px solid #000;
+}
+
+#gnb ul a {
+    color: #fff;
+    font-size: 17px;
+    /* font-weight: bold; */
+    text-align: center;
+    padding: 8px 17px;
+    background-color: #383735;
+    display: inline-block;
+}
+
+#gnb ul li:not(:last-child) a {
+    border-left: 1px solid #fff;
+}
+
+#gnb li:first-child a {
+    background-color: #3793c4;
+}
+/* nav#gnb 끝 */
 
 
 
