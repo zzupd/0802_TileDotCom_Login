@@ -120,7 +120,7 @@ nav#gnb {
   font-size: 17px;
   /* font-weight: bold; */
   text-align: center;
-  padding: 8px 19px;
+  padding: 3px 0px 0;
   background-color: #383735;
   display: inline-block;
 }
@@ -130,6 +130,7 @@ nav#gnb {
 }
 
 #gnb li:first-child a {
+  padding: 8px 18px;
   background-color: #3793c4;
 }
 
@@ -151,4 +152,23 @@ nav#gnb {
   color: #fff;
   /* display: block; */
 }
+
+/* GNB메뉴 하이라이트 효과 시작 */
+
+/* #gnb li.mainLi a {
+  border: 1px solid #f00;
+} */
+
+#gnb li.mainLi a span.spanEffect {
+  color: #fff;
+  padding: 4px 22px 5px;
+  /* border: 1px solid #08f; */
+  border-bottom: 4px solid #383735;
+  display: inline-block;
+}
+#gnb li.mainLi a span.spanEffect:hover {
+  border-bottom: 4px solid #3793c4;
+}
+/* GNB메뉴 하이라이트 효과 끝 */
+
 /* nav#gnb 끝 */
