@@ -161,7 +161,7 @@ nav#gnb {
 
 #gnb li.mainLi a span.spanEffect {
   color: #fff;
-  padding: 4px 22px 5px;
+  padding: 4px 19px 5px;
   /* border: 1px solid #08f; */
   border-bottom: 4px solid #383735;
   display: inline-block;
@@ -172,3 +172,177 @@ nav#gnb {
 /* GNB메뉴 하이라이트 효과 끝 */
 
 /* nav#gnb 끝 */
+
+/* main#main 시작 */
+
+main#main {
+  padding: 10px;
+
+  justify-content: space-around;
+}
+
+/* div#mainLnbArea 시작 */
+#main div#mainLnbArea {
+  width: 156px;
+  padding: 10px 24px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
+#main #mainLnbArea h3 {
+  text-align: center;
+}
+#main hr {
+  padding-bottom: 1px;
+  border: none;
+  border-top: 2px solid #ddd;
+  border-bottom: 1px solid #eee;
+  margin: 3px 0;
+}
+#main li {
+  line-height: 19px;
+  list-style-image: url(../images/arrow_Icon.png);
+  list-style-position: inside;
+}
+
+#main li a {
+  font-size: 12px;
+  font-weight: bold;
+}
+/* div#mainLnbArea 끝 */
+
+/* div#contents 시작 */
+#main div#contents {
+  width: 760px;
+  padding-top: 26px;
+  padding-left: 80px;
+  /* border: 1px solid #000; */
+}
+
+/* header#contentsHeader 시작 */
+#contents header#contentsHeader p {
+  font-size: 11px;
+  line-height: 16px;
+  margin-bottom: 11px;
+}
+#contents header#contentsHeader span#loginTxt1 {
+  color: #16b1a9;
+  font-size: 20px;
+  font-weight: bold;
+}
+#contents header#contentsHeader span#loginTxt2 {
+  color: #7fb142;
+  font-weight: bold;
+}
+
+/* header#contentsHeader 끝 */
+
+/* div#loginArea 시작 */
+div#loginArea {
+  width: 470px;
+  padding: 26px 30px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+#loginArea table {
+  font-size: 11px;
+  /* border: 1px solid #000; */
+}
+
+#loginArea table td {
+  vertical-align: middle;
+  padding: 2px 0;
+}
+
+#loginArea td#loginAreaTxt {
+  color: #723495;
+  font-weight: bold;
+  vertical-align: top;
+  padding-top: 7px;
+  padding-right: 16px;
+}
+
+#loginArea td.loginInputTxt {
+  padding-right: 14px;
+}
+
+#loginArea td.loginInputTxt::before {
+  content: "\2022";
+  /* 불릿기호(bullet, 총알자국 기호) 
+  URL => https://www.w3schools.com/howto/howto_css_bullet_color.asp
+  */
+  color: #f00;
+  font-weight: bold;
+}
+
+#loginArea td input.account {
+  width: 130px;
+  padding: 4px;
+  border: 1px solid #bbb;
+}
+
+#loginArea td#securityChk {
+  padding: 4px;
+}
+#loginArea td#securityChk input {
+  margin-right: 4px;
+  transform: translateY(2px);
+}
+#loginArea td button {
+  color: #fff;
+  font-size: 12px;
+  padding: 2px 17px;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  margin-left: 4px;
+  background-color: #aaa;
+  transform: translateY(2px);
+}
+/* div#loginArea 끝 */
+
+/* div#memberLink 시작 */
+div#memberLink table {
+  margin: 28px 0;
+}
+div#memberLink table td {
+  padding: 10px 4px 10px 0;
+}
+div#memberLink h4.memberLinkTitle {
+  color: #723495;
+  font-size: 11px;
+}
+div#memberLink table span {
+  font-size: 11px;
+}
+/* div#memberLink 시작 */
+
+/* footer#contentsFooter 시작 */
+footer#contentsFooter {
+  font-size: 13px;
+  line-height: 19px;
+  padding-left: 10px;
+}
+/* footer#contentsFooter 끝 */
+
+/* div#contents 끝 */
+
+/* main#main 끝 */
+
+/* footer#footer 시작 */
+hr#footerLine {
+  border: none;
+  border-top: 4px solid #444;
+}
+
+footer#footer {
+  justify-content: space-around;
+}
+
+#footer div.footerItem {
+  padding: 0 10px;
+  border: 1px solid #000;
+}
+#footer div.footerItem h4 {
+  margin: 8px 0;
+}
+/* footer#footer 끝 */
